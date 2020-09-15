@@ -8,8 +8,8 @@
   "date": "2020-02-01T00:00:00.000Z",
   "code": [
     {
-      "system": "http://example.org/system/code/lifelines/nl",
-      "code": "VL 1-1, 18-65_1.2.2",
+      "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/DPQ_J.htm",
+      "code": "DPQ_J",
       "display": "NHANES Mental Health Depression Questionnaire"
     }
   ],

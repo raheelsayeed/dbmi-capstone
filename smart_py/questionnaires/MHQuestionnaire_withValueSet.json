@@ -1,0 +1,160 @@
+{
+  "resourceType": "Questionnaire",
+  "url": "http://hl7.org/fhir/Questionnaire/f201",
+  "status": "active",
+  "subjectType": [
+    "Patient"
+  ],
+  "date": "2020-02-01T00:00:00.000Z",
+  "code": [
+    {
+      "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/DPQ_J.htm",
+      "code": "DPQ_J",
+      "display": "NHANES Mental Health Depression Questionnaire"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "DPQ010",
+      "answerValueSet": "#Mental-Health-Depression-valueset-1",
+      "text": "Over the last 2 weeks, how often have you been bothered by the following problems: little interest or pleasure in doing things? Would you say...",
+      "type": "integer"
+    },
+    {
+      "linkId": "DPQ020",
+      "answerValueSet": "#Mental-Health-Depression-valueset-1",
+      "text": "[Over the last 2 weeks, how often have you been bothered by the following problems:] feeling down, depressed, or hopeless?",
+      "type": "integer"
+    },
+    {
+      "linkId": "DPQ030",
+      "answerValueSet": "#Mental-Health-Depression-valueset-1",
+      "text": "[Over the last 2 weeks, how often have you been bothered by the following problems:] trouble falling or staying asleep, or sleeping too much?",
+      "type": "integer"
+    },
+    {
+      "linkId": "DPQ040",
+      "answerValueSet": "#Mental-Health-Depression-valueset-1",
+      "text": "[Over the last 2 weeks, how often have you been bothered by the following problems:] feeling tired or having little energy?",
+      "type": "integer"
+    },
+    {
+      "linkId": "DPQ050",
+      "answerValueSet": "#Mental-Health-Depression-valueset-1",
+      "text": "[Over the last 2 weeks, how often have you been bothered by the following problems:] poor appetite or overeating?",
+      "type": "integer"
+    },
+    {
+      "linkId": "DPQ060",
+      "answerValueSet": "#Mental-Health-Depression-valueset-1",
+      "text": "[Over the last 2 weeks, how often have you been bothered by the following problems:] feeling bad about yourself - or that you are a failure or have let yourself or your family down?",
+      "type": "integer"
+    },
+    {
+      "linkId": "DPQ070",
+      "answerValueSet": "#Mental-Health-Depression-valueset-1",
+      "text": "[Over the last 2 weeks, how often have you been bothered by the following problems:] trouble concentrating on things, such as reading the newspaper or watching TV?",
+      "type": "integer"
+    },
+    {
+      "linkId": "DPQ080",
+      "answerValueSet": "#Mental-Health-Depression-valueset-1",
+      "text": "[Over the last 2 weeks, how often have you been bothered by the following problems:] moving or speaking so slowly that other people could have noticed? Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual?",
+      "type": "integer"
+    },
+    {
+      "linkId": "DPQ090",
+      "answerValueSet": "#Mental-Health-Depression-valueset-1",
+      "text": "[Over the last 2 weeks, how often have you been bothered by the following problems:] Thoughts that you would be better off dead or of hurting yourself in some way?",
+      "type": "integer"
+    },
+    {
+      "linkId": "DPQ100",
+      "answerValueSet": "#Mental-Health-Depression-valueset-2",
+      "text": "How difficult have these problems made it for you to do your work, take care of things at home, or get along with people?",
+      "type": "integer"
+    }
+  ],
+  "contained": [
+    {
+      "resourceType": "ValueSet",
+      "id": "Mental-Health-Depression-valueset-1",
+      "name": "Mental Health Depression ValueSet 1",
+      "status": "active",
+      "description": "Mental Health Depression Questionnaire Response Value Set 1",
+      "compose": {
+          "include": [
+              {
+                  "system": "http://hl7.org/fhir/sid/icd-10",
+                  "concept": [
+                      {
+                          "code": "0",
+                          "display": "Not at all"
+                      },
+                      {
+                          "code": "1",
+                          "display": "Several Days"
+                      },
+                      {
+                          "code": "2",
+                          "display": "More than half the days"
+                      },
+                      {
+                          "code": "3",
+                          "display": "Nearly every day"
+                      },
+                      {
+                          "code": "7",
+                          "display": "Refused"
+                      },
+                      {
+                          "code": "9",
+                          "display": "Don't know"
+                      }
+                  ]
+              }
+          ]
+      }
+    },
+    {
+      "resourceType": "ValueSet",
+      "id": "Mental-Health-Depression-valueset-2",
+      "name": "Mental Health Depression ValueSet 2",
+      "status": "active",
+      "description": "Mental Health Depression Questionnaire Response Value Set 2",
+      "compose": {
+            "include": [
+                {
+                    "system": "http://hl7.org/fhir/sid/icd-10",
+                    "concept": [
+                        {
+                            "code": "0",
+                            "display": "Not at all difficult"
+                        },
+                        {
+                            "code": "1",
+                            "display": "Somewhat difficult"
+                        },
+                        {
+                            "code": "2",
+                            "display": "Very difficult"
+                        },
+                        {
+                            "code": "3",
+                            "display": "Extremely difficult"
+                        },
+                        {
+                            "code": "7",
+                            "display": "Refused"
+                        },
+                        {
+                            "code": "9",
+                            "display": "Don't know"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+  ]
+}

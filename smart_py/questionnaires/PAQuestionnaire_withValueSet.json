@@ -1,0 +1,324 @@
+{
+  "resourceType": "Questionnaire",
+  "url": "http://hl7.org/fhir/Questionnaire/f201",
+  "status": "active",
+  "subjectType": [
+    "Patient"
+  ],
+  "date": "2020-02-01T00:00:00.000Z",
+  "code": [
+    {
+      "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+      "code": "PAQ_J",
+      "display": "NHANES Physical Activity Questionnaire"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "PAQ605",
+      "answerValueSet": "#Physical-Activity-valueset-1",
+      "text": "Next I am going to ask you about the time {you spend/SP spends} doing different types of physical activity in a typical week. Think first about the time {you spend/he spends/she spends} doing work. Think of work as the things that {you have/he has/she has} to do such as paid or unpaid work, household chores, and yard work. Does {your/SP's} work involve vigorous-intensity activity that causes large increases in breathing or heart rate like carrying or lifting heavy loads, digging or construction work for at least 10 minutes continuously?",
+      "type": "integer"
+    },
+    {
+      "linkId": "PAQ610",
+      "text": "In a typical week, on how many days {do you/does SP} do vigorous-intensity activities as part of {your/his/her} work?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q610",
+          "display": "NHANES Physical Activity Questionnaire q610"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 1
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 7
+				}
+      ]
+    },
+    {
+      "linkId": "PAD615",
+      "text": "How much time {do you/does SP} spend doing vigorous-intensity activities at work on a typical day?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q615",
+          "display": "NHANES Physical Activity Questionnaire q615"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 10
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 840
+				}
+      ]
+    },
+    {
+      "linkId": "PAQ620",
+      "answerValueSet": "#Physical-Activity-valueset-1",
+      "text": "Does {your/SP's} work involve moderate-intensity activity that causes small increases in breathing or heart rate such as brisk walking or carrying light loads for at least 10 minutes continuously?",
+      "type": "integer"
+    },
+    {
+      "linkId": "PAQ625",
+      "text": "In a typical week, on how many days {do you/does SP} do moderate-intensity activities as part of {your/his/her} work?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q625",
+          "display": "NHANES Physical Activity Questionnaire q625"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 1
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 7
+				}
+      ]
+    },
+    {
+      "linkId": "PAD630",
+      "text": "How much time {do you/does SP} spend doing moderate-intensity activities at work on a typical day?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q630",
+          "display": "NHANES Physical Activity Questionnaire q630"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 10
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 840
+				}
+      ]
+    },
+    {
+      "linkId": "PAQ635",
+      "answerValueSet": "#Physical-Activity-valueset-1",
+      "text": "The next questions exclude the physical activity at work that you have already mentioned. Now I would like to ask you about the usual way {you travel/SP travels} to and from places. For example to school, for shopping, to work. In a typical week {do you/does SP} walk or use a bicycle for at least 10 minutes continuously to get to and from places?",
+      "type": "integer"
+    },
+    {
+      "linkId": "PAQ640",
+      "text": "In a typical week, on how many days {do you/does SP} walk or bicycle for at least 10 minutes continuously to get to and from places?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q640",
+          "display": "NHANES Physical Activity Questionnaire q640"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 1
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 7
+				}
+      ]
+    },
+    {
+      "linkId": "PAD645",
+      "text": "How much time {do you/does SP} spend walking or bicycling for travel on a typical day?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q645",
+          "display": "NHANES Physical Activity Questionnaire q645"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 10
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 660
+				}
+      ]
+    },
+    {
+      "linkId": "PAQ650",
+      "answerValueSet": "#Physical-Activity-valueset-1",
+      "text": "The next questions exclude the work and transport activities that you have already mentioned. Now I would like to ask you about sports, fitness and recreational activities. In a typical week {do you/does SP} do any vigorous-intensity sports, fitness, or recreational activities that cause large increases in breathing or heart rate like running or basketball for at least 10 minutes continuously?",
+      "type": "integer"
+    },
+    {
+      "linkId": "PAQ655",
+      "text": "In a typical week, on how many days {do you/does SP} do vigorous-intensity sports, fitness or recreational activities?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q655",
+          "display": "NHANES Physical Activity Questionnaire q655"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 1
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 7
+				}
+      ]
+    },
+    {
+      "linkId": "PAD660",
+      "text": "How much time {do you/does SP} spend doing vigorous-intensity sports, fitness or recreational activities on a typical day?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q660",
+          "display": "NHANES Physical Activity Questionnaire q660"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 10
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 480
+				}
+      ]
+    },
+    {
+      "linkId": "PAQ665",
+      "answerValueSet": "#Physical-Activity-valueset-1",
+      "text": "In a typical week {do you/does SP} do any moderate-intensity sports, fitness, or recreational activities that cause a small increase in breathing or heart rate such as brisk walking, bicycling, swimming, or volleyball for at least 10 minutes continuously?",
+      "type": "integer"
+    },
+    {
+      "linkId": "PAQ670",
+      "text": "In a typical week, on how many days {do you/does SP} do moderate-intensity sports, fitness or recreational activities?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q670",
+          "display": "NHANES Physical Activity Questionnaire q670"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 1
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 7
+				}
+      ]
+    },
+    {
+      "linkId": "PAD675",
+      "text": "How much time {do you/does SP} spend doing moderate-intensity sports, fitness or recreational activities on a typical day?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q675",
+          "display": "NHANES Physical Activity Questionnaire q675"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 10
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 540
+				}
+      ]
+    },
+    {
+      "linkId": "PAD680",
+      "text": "The following question is about sitting at school, at home, getting to and from places, or with friends including time spent sitting at a desk, traveling in a car or bus, reading, playing cards, watching television, or using a computer. Do not include time spent sleeping. How much time {do you/does SP} usually spend sitting on a typical day?",
+      "type": "integer",
+      "code": [
+        {
+          "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/PAQ_J.htm",
+          "code": "q680",
+          "display": "NHANES Physical Activity Questionnaire q680"
+        }
+      ],
+      "extension": [
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/minValue",
+							"valueInteger": 10
+				},
+        {
+							"url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+							"valueInteger": 1320
+				}
+      ]
+    }
+  ],
+  "contained": [
+    {
+      "resourceType": "ValueSet",
+      "id": "Physical-Activity-valueset-1",
+      "name": "Physical-Activity ValueSet 1",
+      "status": "active",
+      "description": "Physical-Activity Questionnaire Response Value Set 1",
+      "compose": {
+            "include": [
+                {
+                    "system": "http://hl7.org/fhir/sid/icd-10",
+                    "concept": [
+                        {
+                            "code": "1",
+                            "display": "Yes"
+                        },
+                        {
+                            "code": "2",
+                            "display": "No"
+                        },
+                        {
+                            "code": "7",
+                            "display": "Refused"
+                        },
+                        {
+                            "code": "9",
+                            "display": "Don't Know"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+  ]
+}

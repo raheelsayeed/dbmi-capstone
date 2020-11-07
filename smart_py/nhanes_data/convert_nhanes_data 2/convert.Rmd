@@ -1,0 +1,32 @@
+---
+title: "Untitled"
+author: "Parker Bannister"
+date: "4/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r cars}
+
+# in R 
+library(Hmisc)
+
+depres_data <- sasxport.get("DPQ_J.XPT")
+activ_data <- sasxport.get("PAQ_J.XPT")
+demographic_data <- sasxport.get("DEMO_J.XPT")
+
+depres_data
+activ_data
+demographic_data
+
+write.csv(depres_data, "depression_questionnaire.csv")
+write.csv(activ_data, "activity_questionnaire.csv")
+write.csv(demographic_data, "demographic_data.csv")
+
+
+```
+

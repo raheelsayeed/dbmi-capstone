@@ -16,7 +16,16 @@
       {
          "answer": [
             {
-               "valueInteger": 60
+               "valueInteger": 180
+            }
+         ],
+         "linkId": "PAD660",
+         "text": "How much time {do you/does SP} spend doing vigorous-intensity sports, fitness or recreational activities on a typical day?"
+      },
+      {
+         "answer": [
+            {
+               "valueInteger": 180
             }
          ],
          "linkId": "PAD675",
@@ -25,7 +34,7 @@
       {
          "answer": [
             {
-               "valueInteger": 60
+               "valueInteger": 600
             }
          ],
          "linkId": "PAD680",
@@ -34,7 +43,9 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "PAQ605",
@@ -43,7 +54,9 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "PAQ620",
@@ -52,7 +65,9 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueCoding": {
+                  "code": "1.0"
+               }
             }
          ],
          "linkId": "PAQ635",
@@ -61,7 +76,18 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueInteger": 3
+            }
+         ],
+         "linkId": "PAQ640",
+         "text": "In a typical week, on how many days {do you/does SP} walk or bicycle for at least 10 minutes continuously to get to and from places?"
+      },
+      {
+         "answer": [
+            {
+               "valueCoding": {
+                  "code": "1.0"
+               }
             }
          ],
          "linkId": "PAQ650",
@@ -70,7 +96,18 @@
       {
          "answer": [
             {
-               "valueInteger": 1
+               "valueInteger": 2
+            }
+         ],
+         "linkId": "PAQ655",
+         "text": "In a typical week, on how many days {do you/does SP} do vigorous-intensity sports, fitness or recreational activities?"
+      },
+      {
+         "answer": [
+            {
+               "valueCoding": {
+                  "code": "1.0"
+               }
             }
          ],
          "linkId": "PAQ665",
@@ -86,7 +123,7 @@
          "text": "In a typical week, on how many days {do you/does SP} do moderate-intensity sports, fitness or recreational activities?"
       }
    ],
-   "questionnaire": "Questionnaire/634080",
+   "questionnaire": "Questionnaire/661146",
    "status": "completed",
    "resourceType": "QuestionnaireResponse"
 }

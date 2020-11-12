@@ -3,7 +3,7 @@
       "system": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/DPQ_J.htm",
       "value": "98813"
    },
-   "questionnaire": "Questionnaire/634079",
+   "questionnaire": "Questionnaire/661145",
    "status": "completed",
    "resourceType": "QuestionnaireResponse"
 }

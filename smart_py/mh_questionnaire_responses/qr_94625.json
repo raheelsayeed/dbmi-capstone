@@ -7,7 +7,9 @@
       {
          "answer": [
             {
-               "valueInteger": 0
+               "valueCoding": {
+                  "code": "0.0"
+               }
             }
          ],
          "linkId": "DPQ010",
@@ -16,7 +18,9 @@
       {
          "answer": [
             {
-               "valueInteger": 0
+               "valueCoding": {
+                  "code": "0.0"
+               }
             }
          ],
          "linkId": "DPQ020",
@@ -25,7 +29,9 @@
       {
          "answer": [
             {
-               "valueInteger": 0
+               "valueCoding": {
+                  "code": "0.0"
+               }
             }
          ],
          "linkId": "DPQ030",
@@ -34,7 +40,9 @@
       {
          "answer": [
             {
-               "valueInteger": 1
+               "valueCoding": {
+                  "code": "1.0"
+               }
             }
          ],
          "linkId": "DPQ040",
@@ -43,7 +51,9 @@
       {
          "answer": [
             {
-               "valueInteger": 0
+               "valueCoding": {
+                  "code": "0.0"
+               }
             }
          ],
          "linkId": "DPQ050",
@@ -52,7 +62,9 @@
       {
          "answer": [
             {
-               "valueInteger": 0
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "DPQ060",
@@ -61,7 +73,9 @@
       {
          "answer": [
             {
-               "valueInteger": 0
+               "valueCoding": {
+                  "code": "0.0"
+               }
             }
          ],
          "linkId": "DPQ070",
@@ -70,7 +84,9 @@
       {
          "answer": [
             {
-               "valueInteger": 1
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "DPQ080",
@@ -79,7 +95,9 @@
       {
          "answer": [
             {
-               "valueInteger": 0
+               "valueCoding": {
+                  "code": "3.0"
+               }
             }
          ],
          "linkId": "DPQ090",
@@ -88,14 +106,16 @@
       {
          "answer": [
             {
-               "valueInteger": 0
+               "valueCoding": {
+                  "code": "0.0"
+               }
             }
          ],
          "linkId": "DPQ100",
          "text": "How difficult have these problems made it for you to do your work, take care of things at home, or get along with people?"
       }
    ],
-   "questionnaire": "Questionnaire/634079",
+   "questionnaire": "Questionnaire/661145",
    "status": "completed",
    "resourceType": "QuestionnaireResponse"
 }

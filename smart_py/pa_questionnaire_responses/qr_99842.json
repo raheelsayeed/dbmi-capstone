@@ -16,16 +16,7 @@
       {
          "answer": [
             {
-               "valueInteger": 60
-            }
-         ],
-         "linkId": "PAD675",
-         "text": "How much time {do you/does SP} spend doing moderate-intensity sports, fitness or recreational activities on a typical day?"
-      },
-      {
-         "answer": [
-            {
-               "valueInteger": 60
+               "valueInteger": 360
             }
          ],
          "linkId": "PAD680",
@@ -34,7 +25,9 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueCoding": {
+                  "code": "1.0"
+               }
             }
          ],
          "linkId": "PAQ605",
@@ -43,7 +36,18 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueInteger": 1
+            }
+         ],
+         "linkId": "PAQ610",
+         "text": "In a typical week, on how many days {do you/does SP} do vigorous-intensity activities as part of {your/his/her} work?"
+      },
+      {
+         "answer": [
+            {
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "PAQ620",
@@ -52,7 +56,9 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "PAQ635",
@@ -61,7 +67,9 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "PAQ650",
@@ -70,23 +78,16 @@
       {
          "answer": [
             {
-               "valueInteger": 1
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "PAQ665",
          "text": "In a typical week {do you/does SP} do any moderate-intensity sports, fitness, or recreational activities that cause a small increase in breathing or heart rate such as brisk walking, bicycling, swimming, or volleyball for at least 10 minutes continuously?"
-      },
-      {
-         "answer": [
-            {
-               "valueInteger": 3
-            }
-         ],
-         "linkId": "PAQ670",
-         "text": "In a typical week, on how many days {do you/does SP} do moderate-intensity sports, fitness or recreational activities?"
       }
    ],
-   "questionnaire": "Questionnaire/634080",
+   "questionnaire": "Questionnaire/661146",
    "status": "completed",
    "resourceType": "QuestionnaireResponse"
 }

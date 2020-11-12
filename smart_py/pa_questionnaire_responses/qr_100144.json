@@ -16,7 +16,7 @@
       {
          "answer": [
             {
-               "valueInteger": 60
+               "valueInteger": 360
             }
          ],
          "linkId": "PAD680",
@@ -25,7 +25,9 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "PAQ605",
@@ -34,7 +36,9 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "PAQ620",
@@ -43,7 +47,9 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "PAQ635",
@@ -52,7 +58,9 @@
       {
          "answer": [
             {
-               "valueInteger": 2
+               "valueCoding": {
+                  "code": "2.0"
+               }
             }
          ],
          "linkId": "PAQ650",
@@ -61,7 +69,9 @@
       {
          "answer": [
             {
-               "valueInteger": 1
+               "valueCoding": {
+                  "code": "1.0"
+               }
             }
          ],
          "linkId": "PAQ665",
@@ -70,14 +80,14 @@
       {
          "answer": [
             {
-               "valueInteger": 3
+               "valueInteger": 2
             }
          ],
          "linkId": "PAQ670",
          "text": "In a typical week, on how many days {do you/does SP} do moderate-intensity sports, fitness or recreational activities?"
       }
    ],
-   "questionnaire": "Questionnaire/634080",
+   "questionnaire": "Questionnaire/661146",
    "status": "completed",
    "resourceType": "QuestionnaireResponse"
 }
